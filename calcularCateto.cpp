@@ -24,9 +24,9 @@ int main(){
 	float res;
 	/*	se crea el objeto  */
 	Hipotenusa obj_hip;
-	cout<<"Entrar el valor de a: ";
+	cout<<"Entrar el cateto a: ";
 	cin>> a;
-	cout<<"Entrar el valor de b: ";
+	cout<<"Entrar el cateto b: ";
 	cin>> b;
 	//Activación de mensajes
 	obj_hip.asignar_val(a,b);
